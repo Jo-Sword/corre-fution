@@ -1,0 +1,21 @@
+body{background-color: #222}
+html, body, #contenedor-juego
+{
+  margin: 0;
+  padding: 0
+}
+
+#contenedor-juego
+{
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+#game-container>canvas 
+{
+  border: 2px solid #eee;
+  border-radius: 5px
+}
